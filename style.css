@@ -1,7 +1,63 @@
+body {
+  background-color: #b0757c;
+}
+.contianer {
+  max-width: 600px;
+  margin: 60px auto;
+  color: #c38b8b;
+  background-color: white;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px dashed grey;
+}
+
+.city:last-child {
+  border: none;
+}
+
+h2 {
+  margin: 0;
+  line-height: 2;
+  font-size: 28px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.date {
+  opacity: 0.7;
+}
+
+.time {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 25px;
+  vertical-align: middle;
+  line-height: 30px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 15px;
+}
 h1 {
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 footer {
   text-align: center;
+  color: white;
 }
